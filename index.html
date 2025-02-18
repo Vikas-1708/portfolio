@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vikas Mora - Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#hobbies">Hobbies</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home" class="section">
+    <div class="container">
+      <img src="WhatsApp Image 2025-02-18 at 21.15.47_74b93372.jpg" alt="Vikas Mora" class="profile-photo animate__animated animate__fadeIn">
+      <h1 class="animate__animated animate__fadeInDown">Vikas Mora</h1>
+      <p class="animate__animated animate__fadeInUp">CSE Student (AI & ML) | Web Developer</p>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>Hi, I’m Vikas Mora, a 2nd-year B.Tech student specializing in AI & ML at SR University. I’m passionate about learning new technologies and building innovative solutions. With intermediate skills in web development and DSA in Java, I’m constantly exploring new ways to grow and contribute to the tech world.</p>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section id="education" class="section">
+    <div class="container">
+      <h2>Education</h2>
+      <ul>
+        <li><strong>B.Tech in Computer Science (AI & ML)</strong> - SR University (2022–2026)</li>
+        <li><strong>12th Grade</strong> - Alphores Jr College, Karimnagar (2022)</li>
+        <li><strong>10th Grade</strong> - Kerala English Medium High School, Veenavanka (2020)</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section">
+    <div class="container">
+      <h2>Skills</h2>
+      <ul>
+        <li>Web Development (HTML, CSS, JavaScript, React)</li>
+        <li>Data Structures and Algorithms (Java)</li>
+        <li>Basics of AI & ML</li>
+        <li>Version Control (Git, GitHub)</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="project">
+        <h3>Personal Portfolio Website</h3>
+        <p>A responsive portfolio website showcasing my skills, education, and projects. Built using HTML, CSS, and JavaScript with smooth transitions.</p>
+        <p><strong>Technologies Used:</strong> HTML, CSS, JavaScript</p>
+      </div>
+      <div class="project">
+        <h3>To-Do List App</h3>
+        <p>A simple to-do list app that allows users to add, delete, and mark tasks as complete.</p>
+        <p><strong>Technologies Used:</strong> React, JavaScript</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Hobbies Section -->
+  <section id="hobbies" class="section">
+    <div class="container">
+      <h2>Hobbies</h2>
+      <ul>
+        <li>Listening to Music</li>
+        <li>Playing Video Games</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>Contact</h2>
+      <p>Feel free to reach out to me!</p>
+      <ul>
+        <li><strong>Email:</strong> vikas.mora@example.com</li>
+        <li><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/vikas-mora" target="_blank">linkedin.com/in/vikas-mora</a></li>
+        <li><strong>GitHub:</strong> <a href="https://github.com/vikasmora" target="_blank">github.com/vikasmora</a></li>
+        <li><strong>Phone:</strong> +91 9876543210</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2023 Vikas Mora. All rights reserved.</p>
+  </footer>
+
+  <!-- JavaScript for Smooth Scrolling -->
+  <script>
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+  </script>
+</body>
+</html>
